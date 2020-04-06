@@ -1,0 +1,89 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Indie Flower', cursive;
+    background-color: #1D1E2C;
+    background-color: #2A2D34;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #119DA4;
+    color: #30C5FF;
+}
+
+.grid{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.buttons{
+    grid-column: 2/6;
+    display: grid;
+    grid-gap: 1.5rem;
+}
+
+.canvas{
+    grid-column: 7/12;
+}
+
+.form{
+    grid-column: 5/9;
+}
+
+.btn{
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #3D4046;
+}
+
+.btn:hover, .active, .btn-submit:hover{
+    background-color: #30C5FF;
+}
+
+.submitBtn{
+    width: 100%;
+    margin: 1.5rem 0px 0px 1rem;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #3D4046;
+}
+
+.form-control{
+    padding: 1rem 1.5rem;
+    border: none;
+    outline:none;
+    border-bottom: 2px solid #30C5FF;
+    width: 100%;
+    color: white;
+}
+
+.form-heading{
+    color: white;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.state{
+    color: #30C5FF;
+}
+
+.y-axis line, .y-axis path,
+.x-axis line, .x-axis path{
+    stroke: white;
+}
+
+.x-axis text, .y-axis text{
+    fill: white;
+}
